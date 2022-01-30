@@ -59,3 +59,26 @@ a.navbar-brand {
 .page_header {
     color: #4aaaa5;  
 }
+
+.container {
+    display: flex;
+    background-color: rgb(240, 240, 240);
+}
+
+.summary_box {
+    flex: 1;
+    max-width: 550px;
+    margin: auto;
+    padding: 10px;
+    margin: 8px;
+    padding-right: 45px;
+}  
+
+#visual {
+    max-width: 950px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+  
+} 
+
