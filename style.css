@@ -1,4 +1,4 @@
-/*Starting reference style Bootwatch theme mint*/
+
 p.format {
     line-height: 1.5;
     
@@ -7,21 +7,21 @@ p.format {
 .nav-button  {
     padding-left: 10px;
     padding-right:10px;
-    color: #0aada6;
+    color: #4aaaa6;
 }
 .nav-padding {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right:15px;
-    
+    background-color: white;
 }
 
 
 .main h2 {
     margin-left: 15px;
     margin-right: 15px;
-    color: #0aada6;
+    color: #4aaaa6;
 }
 
 .main h4 {
@@ -38,7 +38,7 @@ p.format {
     margin: 15px;
 }
 .box-selected {
-    border:  2px solid #4aaaa5;
+    border:  2px solid #4aaaa6;
 }
 
 
@@ -46,14 +46,17 @@ a.navbar-brand {
     
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: #0aada6;
+    background-color: #4aaaa6;
     font-size: 25px;
+    margin-left: 10px;
+    padding: 10px;
   }
 
 #format_d {
     text-align: left;
-    margin-left: 15px;
+    margin-left: 2px;
     line-height: 1.5;
+    padding-top: 5px;
 }
 
 .page_header {
@@ -114,4 +117,24 @@ h2 {
     color: #0aada6;
 }
 
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: #4aaaa6!important;    
+    }
 
+.navbar-collapse{
+        background-color: white;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
+
+/* hide the first column in the table */
+th:nth-child(1) { display:none; }
+
+
+
+p span.spacer {
+    padding:0 250px;
+ }
