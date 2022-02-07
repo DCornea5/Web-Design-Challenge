@@ -14,4 +14,7 @@ There are seven individual pages with specific visualisations and explanations o
 
 A navigation bar can be accessed from every page of the website and contains a drop down menu for the plots as well as links to the comparisons and data pages.
 
+GitHubPages link  
+
+ https://dcornea5.github.io/Web-Design-Challenge/
 
